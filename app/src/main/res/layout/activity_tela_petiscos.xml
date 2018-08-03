@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="butecogaragem.cursoandroid.com.butecogaragem.TelaPetiscos"
+    android:background="#383333">
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:id="@+id/button27"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/texto_salame"
+        android:text="SALAME"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:text="OVO DE CODORNA"
+        android:id="@+id/button28"
+        android:layout_below="@+id/button27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/texto_codorna"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:text="AZEITONA"
+        android:id="@+id/button29"
+        android:layout_alignTop="@+id/button27"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/texto_azeitona"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:text="MUSSARELA"
+        android:id="@+id/button30"
+        android:layout_alignBottom="@+id/button28"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/texto_mussarela"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:text="PROVOLONE"
+        android:id="@+id/button31"
+        android:layout_below="@+id/button28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/texto_provolone"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:text="PALMITO"
+        android:id="@+id/button32"
+        android:layout_alignBottom="@+id/button31"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/texto_palmito"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageView12"
+        android:src="@drawable/e"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:backgroundTint="#86ffffff" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/abc_vector_test"
+        android:backgroundTint="#86ffffff" />
+</RelativeLayout>

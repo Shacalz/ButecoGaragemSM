@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="butecogaragem.cursoandroid.com.butecogaragem.TelaHamburguer"
+    android:background="#383333">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="SIMPLES"
+        android:id="@+id/button12"
+        android:textSize="@dimen/texto_simples"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="DOBLO"
+        android:id="@+id/button13"
+        android:layout_above="@+id/button14"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:textSize="@dimen/texto_doblo"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="EGG"
+        android:id="@+id/button14"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/texto_egg"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="COSTELA"
+        android:id="@+id/button15"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/texto_costela"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="BACON"
+        android:id="@+id/button16"
+        android:layout_below="@+id/button14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/texto_bacon"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:text="TORRE EIFFEL"
+        android:id="@+id/button17"
+        android:layout_alignTop="@+id/button16"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:textSize="@dimen/texto_torre_eiffel"
+        android:backgroundTint="#86ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/button16"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/a" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/abc_vector_test" />
+</RelativeLayout>
